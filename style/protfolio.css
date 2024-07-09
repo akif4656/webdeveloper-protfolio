@@ -94,8 +94,14 @@ header nav ul li a{
     margin-top: 7px;
     
 }
+main{
+    max-width: 1140px;
+    background-color: #FD6E0A;
+    margin: auto;
+    
+    
+}
 .about{
-    background: #FFF8F3;
     padding: 150px;
     border-radius: 10px;
     margin: 130px 0;
@@ -104,4 +110,20 @@ header nav ul li a{
     color: #474747;
     text-align: center;
     font-size: 18px;
+}
+.cls{
+    
+}
+.about-info-des{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.about-info h4{
+    margin-bottom: 0;
+}
+.about-info p{
+    margin-top: 5px;
 }

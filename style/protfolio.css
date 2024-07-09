@@ -7,6 +7,10 @@ body{
   font-variation-settings:"wdth" 100;
 
 }
+.header{
+    background-color: #FFF8F3;
+    
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -15,7 +19,7 @@ body{
     background-color: #FD6E0A;
     text-align: center;
     color:white;
-    padding:15px 18px;
+    padding:15px 38px;
     font-size: 20px;
     font-weight: 700;
     border: 0;
@@ -49,4 +53,15 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: #474747;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+    background-color: aqua;
+    
+}
+.banner .profile-pic{
+    width: 500px;
+    border-radius: 50%;
 }
